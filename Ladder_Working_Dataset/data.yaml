@@ -1,0 +1,10 @@
+names:
+- Ladder_with_Outriggers
+- Ladder_without_Outriggers
+- Worker_with_Helmet
+- Worker_with_Safetybelt
+- Worker_without_Helmet
+nc: 5
+test: /content/drive/MyDrive/Ladder_08/Ladder_Working/test.txt
+train: /content/drive/MyDrive/Ladder_08/Ladder_Working/train.txt
+val: /content/drive/MyDrive/Ladder_08/Ladder_Working/valid.txt
