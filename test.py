@@ -107,9 +107,9 @@ def test(data,
 
         with torch.no_grad():
             # Run model
-            t = time_synchronized()
+            t = time_sync()
             out, train_out = model(img, augment=augment)  # inference and training outputs
-            t0 += time_synchronized() - t
+            t0 += time_sync() - t
 
             # Compute loss
             if compute_loss:
@@ -118,9 +118,9 @@ def test(data,
             # Run NMS
             targets[:, 2:] *= torch.Tensor([width, height, width, height]).to(device)  # to pixels
             lb = [targets[targets[:, 0] == i, 1:] for i in range(nb)] if save_hybrid else []  # for autolabelling
-            t = time_synchronized()
+            t = time_sync()
             out = non_max_suppression(out, conf_thres, iou_thres, labels=lb, multi_label=True, agnostic=single_cls)
-            t1 += time_synchronized() - t
+            t1 += time_sync() - t
 
         # Statistics per image
         for si, pred in enumerate(out):
