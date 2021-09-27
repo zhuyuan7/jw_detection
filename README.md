@@ -24,8 +24,10 @@
 
 5) train, valid, test image의 주소 list 만들기<br>
    data2text.py  파일 열어서 환경에 맞게 path 수정해줌.
+   
+   ```bash
     python data2text.py  
-
+    ```
 
 <br>
 
