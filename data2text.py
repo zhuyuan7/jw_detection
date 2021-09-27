@@ -1,4 +1,6 @@
-	
+from glob import glob
+
+
 # 이미지들의 주소 리스트로 만들어줌
 train_img_list = glob('/home/joo/jw_detection/Ladder_Working_Dataset/train/images/*.jpg')
 valid_img_list = glob('/home/joo/jw_detection/Ladder_Working_Dataset/valid/images/*.jpg')
