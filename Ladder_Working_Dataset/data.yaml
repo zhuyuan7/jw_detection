@@ -5,6 +5,4 @@ names:
 - Worker_with_Safetybelt
 - Worker_without_Helmet
 nc: 5
-test: /home/joo/jw_detection/Ladder_Working_Dataset/test.txt
-train: /home/joo/jw_detection/Ladder_Working_Dataset/train.txt
-val: /home/joo/jw_detection/Ladder_Working_Dataset/valid.txt
+
