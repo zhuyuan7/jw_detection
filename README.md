@@ -36,6 +36,9 @@
 <br>
 
 7) YOLOv5 s,m,l,x 모델 trian.py<br>
+<src="https://github.com/zhuyuan7/jw_detection/blob/a4eb3e3e121e022ab4ced3c1f7e2d6cbd305b251/yolo.png"></a>
+
+
      python train.py --img 416 --batch 16 --epochs 20 --data /home/joo/jw_detection/Ladder_Working_Dataset/data.yaml    --cfg  /home/joo/jw_detection/models/yolov5s.yaml  --weights yolov5s.pt  --cache  --name yolov5s
 
    train.py 을 실행하면 /home/joo/jw_detection/runs/train폴더가 생성됨. <br>
