@@ -2,6 +2,7 @@
 """
 Validate a trained YOLOv5 model accuracy on a custom dataset
 
+
 Usage:
     valid
     $ python val.py --img 416 --batch 16  --data '/home/joo/jw_detection/Ladder_Working_Dataset/data.yaml'  
