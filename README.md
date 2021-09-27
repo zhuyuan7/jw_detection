@@ -6,14 +6,16 @@
 <br>
 
 2) jw_detection 으로 이동<br>
+    ```bash
     cd /home/joo/jw_detection
-
+    ```
 
 <br>
 
-3) requirement 설치<br> 
+3) requirement 설치<br>
+    ```bash 
    pip install -r requirements.txt
-
+    ```
 
 <br>
 
