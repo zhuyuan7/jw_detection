@@ -3,7 +3,13 @@
 Validate a trained YOLOv5 model accuracy on a custom dataset
 
 Usage:
-    $ python path/to/val.py --data coco128.yaml --weights yolov5s.pt --img 640
+    valid
+    $ python val.py --img 416 --batch 16  --data '/home/joo/jw_detection/Ladder_Working_Dataset/data.yaml'  
+    --weights '/home/joo/jw_detection/runs/train/yolov5x/weights/best.pt'    --name yolov5x  
+    
+    test
+    $ python val.py --img 416 --batch 16  --data '/home/joo/jw_detection/Ladder_Working_Dataset/data.yaml'  
+    --weights '/home/joo/jw_detection/runs/train/yolov5x/weights/best.pt'    --name yolov5x  --task 'val'
 """
 
 import argparse
