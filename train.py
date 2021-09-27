@@ -3,7 +3,8 @@
 Train a YOLOv5 model on a custom dataset
 
 Usage:
-    $ python path/to/train.py --data coco128.yaml --weights yolov5s.pt --img 640
+    $ python train.py --img 416 --batch 16 --epochs 20 --data /content/drive/MyDrive/Ladder_08/Ladder_Working/data.yaml 
+    --cfg /content/drive/MyDrive/Ladder_08/yolov5/models/yolov5x.yaml --weights yolov5x.pt  --cache  --name yolov5x
 """
 
 import argparse

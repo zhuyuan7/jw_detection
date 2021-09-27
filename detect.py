@@ -3,7 +3,8 @@
 Run inference on images, videos, directories, streams, etc.
 
 Usage:
-    $ python path/to/detect.py --source path/to/img.jpg --weights yolov5s.pt --img 640
+    $ python detect.py  --img 416 --conf 0.25  --source /content/drive/MyDrive/Ladder_08/Ladder_Working/train/images/  
+    --weights '/content/drive/MyDrive/Ladder_08/yolov5/runs/train/yolov5x/weights/best.pt'  --name yolov5x_train
 """
 
 import argparse
