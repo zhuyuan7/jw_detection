@@ -1,8 +1,9 @@
 # jw_detection
 
 1) git clone<br>
+    ```bash
     git clone https://github.com/zhuyuan7/jw_detection.git
-
+    ```
 <br>
 
 2) jw_detection 으로 이동<br>
