@@ -31,7 +31,9 @@
 
 6) yaml을 이용해 data.yaml의 train set과 valid set의 경로를 바꾸어주도록 하자<br>
 
-python data_yaml_dump.py --data /home/joo/jw_detection/Ladder_Working_Dataset/data.yaml  --traintxt /home/joo/jw_detection/Ladder_Working_Dataset/train.txt  --testtxt /home/joo/jw_detection/test.txt  --validtxt /home/joo/jw_detection/Ladder_Working_Dataset/valid.txt	
+    ```bash
+    python data_yaml_dump.py --data /home/joo/jw_detection/Ladder_Working_Dataset/data.yaml  --traintxt /home/joo/jw_detection/Ladder_Working_Dataset/train.txt  --testtxt /home/joo/jw_detection/test.txt  --validtxt /home/joo/jw_detection/Ladder_Working_Dataset/valid.txt	
+    ```
 
 
 
