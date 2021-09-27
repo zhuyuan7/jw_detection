@@ -2,7 +2,7 @@
 
 '''
 python data_yaml_dump.py --data /home/joo/jw_detection/Ladder_Working_Dataset/data.yaml  --traintxt /home/joo/jw_detection/Ladder_Working_Dataset/train.txt
---testtxt /home/joo/jw_detection/test.txt  --validtxt /home/joo/jw_detection/Ladder_Working_Dataset/valid.txt
+--testtxt /home/joo/jw_detection/Ladder_Working_Dataset/test.txt  --validtxt /home/joo/jw_detection/Ladder_Working_Dataset/valid.txt
 
 '''
 
