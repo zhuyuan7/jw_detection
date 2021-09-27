@@ -10,7 +10,7 @@ Usage:
     
     test
     $ python val.py --img 416 --batch 16  --data '/home/joo/jw_detection/Ladder_Working_Dataset/data.yaml'  
-    --weights '/home/joo/jw_detection/runs/train/yolov5x/weights/best.pt'    --name yolov5x  --task 'val'
+    --weights '/home/joo/jw_detection/runs/train/yolov5x/weights/best.pt'    --name yolov5x  --task 'test'
 """
 
 import argparse
