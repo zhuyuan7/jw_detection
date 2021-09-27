@@ -1,10 +1,15 @@
 # YOLOv5 🚀 by Ultralytics, GPL-3.0 license
 """
 Train a YOLOv5 model on a custom dataset
+YOLOv5s :  --cfg /models/yolov5s.yaml  --weights  yolov5s.pt   
+YOLOv5m :  --cfg /models/yolov5m.yaml  --weights  yolov5m.pt 
+YOLOv5s :  --cfg /models/yolov5l.yaml  --weights  yolov5l.pt 
+YOLOv5s :  --cfg /models/yolov5x.yaml  --weights  yolov5x.pt 
+
 
 Usage:
-    $ python train.py --img 416 --batch 16 --epochs 20 --data /content/drive/MyDrive/Ladder_08/Ladder_Working/data.yaml 
-    --cfg /content/drive/MyDrive/Ladder_08/yolov5/models/yolov5x.yaml --weights yolov5x.pt  --cache  --name yolov5x
+    $ python train.py --img 416 --batch 16 --epochs 20 --data /home/joo/jw_detection/Ladder_Working_Dataset/data.yaml
+    --cfg  /home/joo/jw_detection/models/yolov5s.yaml  --weights yolov5s.pt  --cache  --name yolov5s
 """
 
 import argparse
