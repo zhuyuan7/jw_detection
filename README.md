@@ -1,4 +1,13 @@
-# jw_detection
+# jw_detection  
+Custom Dataset _ Object Detection
+
+<br>
+
+Python>=3.6.0
+<br>
+
+
+
 
 1) git clone<br>
     ```bash
