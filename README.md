@@ -35,7 +35,7 @@ Python>=3.6.0
 <br>
 
 5) train, valid, test image의 주소 list 만들기<br>
-   yaml을 이용해 data.yaml의 train set과 valid set의 경로를 바꾸어주도록 하자<br>
+   data.yaml의 train, valid, test set의 경로를 바꾸어주도록 하자<br>
    
    main.py  파일 열어서 환경에 맞게 path 수정해줌.
    
