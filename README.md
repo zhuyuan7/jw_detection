@@ -62,7 +62,7 @@ Python>=3.6.0
 7) YOLOv5s 모델의 train image --> detect.py<br>
 
     ```bash
-    python detect.py  --img 416 --conf 0.25  --source /home/joo/jw_detection/Ladder_Working_Dataset/train/images/  --weights '/home/joo/jw_detection/runs/train/yolov5s/weights/best.pt'  --name yolov5s_train  --data-txt
+    python detect.py  --img 416 --conf 0.25  --source /home/joo/jw_detection/Ladder_Working_Dataset/train/images/  --weights '/home/joo/jw_detection/runs/train/yolov5s/weights/best.pt'  --name yolov5s_train  --save-txt
     ```
 
    detect.py 실행시, /home/joo/jw_detection/runs/detect 폴더가 생성됨. <br>
@@ -75,5 +75,5 @@ Python>=3.6.0
    val.py에서 --task 'test' 로 설정하여 실행
 
     ```bash
-    python val.py --img 416 --batch 16  --data '/home/joo/jw_detection/Ladder_Working_Dataset/data.yaml'  --weights '/home/joo/jw_detection/runs/train/yolov5s/weights/best.pt'    --task 'test'  --name yolov5s
+    python val.py --img 416 --batch 16  --data '/home/joo/jw_detection/Ladder_Working_Dataset/data.yaml'  --weights '/home/joo/jw_detection/runs/train/yolov5s/weights/best.pt'    --task 'test'  --name yolov5s   --save-txt
     ```
