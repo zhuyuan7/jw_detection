@@ -39,7 +39,7 @@ if str(ROOT) not in sys.path:
 
 import val  # for end-of-epoch mAP
 from models.experimental import attempt_load
-# from models.yolo import Model
+from models.yolo import Model
 from utils.autoanchor import check_anchors
 from utils.datasets import create_dataloader
 from utils.general import labels_to_class_weights, increment_path, labels_to_image_weights, init_seeds, \
@@ -121,7 +121,7 @@ def train(hyp,  # path/to/hyp.yaml or hyp dictionary
         ckpt = torch.load(weights, map_location=device)  # load checkpoint
         
         #model = Model(cfg or ckpt['model'].yaml, ch=3, nc=nc, anchors=hyp.get('anchors')).to(device)  # create
-        model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True) # load torch hub
+        model = torch.hub.load('ultralytics/yolov5', 'yolov5s', nc = nc) # load torch hub
         
         exclude = ['anchor'] if (cfg or hyp.get('anchors')) and not resume else []  # exclude keys
         csd = ckpt['model'].float().state_dict()  # checkpoint state_dict as FP32
