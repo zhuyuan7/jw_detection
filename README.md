@@ -62,7 +62,7 @@ Python>=3.6.0
 7) YOLOv5s 모델의 train image --> detect.py<br>
 
     ```bash
-    python detect.py  --img 416 --conf 0.25  --source /home/joo/jw_detection/Ladder_Working_Dataset/train/images/  --weights '/home/joo/jw_detection/runs/train/yolov5s/weights/best.pt'  --name yolov5s_train
+    python detect.py  --img 416 --conf 0.25  --source /home/joo/jw_detection/Ladder_Working_Dataset/train/images/  --weights '/home/joo/jw_detection/runs/train/yolov5s/weights/best.pt'  --name yolov5s_train  --data-txt
     ```
 
    detect.py 실행시, /home/joo/jw_detection/runs/detect 폴더가 생성됨. <br>
